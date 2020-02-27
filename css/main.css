@@ -25,18 +25,21 @@
     grid-column-end: span 3;
     grid-row-start: 1;
     grid-row-end: 1;
+    background: darkgreen;
 }
 #sidebar{
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start:2 ;
     grid-row-end: span 3;
+    background: darkmagenta;
 }
 #hero{
 
     grid-column:2 / span 4;
    
     grid-row:2  ;
+    background: darkred;
    
 }
 #content-1,
@@ -48,13 +51,25 @@
 #content-2{
 
     grid-column: 3 / span 2;
+    background: deepskyblue;
 }
+#big-content-2{
 
+    background: hotpink;
+}
 #big-content-1,#big-content-2{
 
     grid-column: span 2;
+    background: gold;
 }
 #links{
 
     grid-column: span 2;
+    background: indianred;
+}
+#info{
+    background: lightsalmon;
+}
+#address{
+    background: green;
 }
